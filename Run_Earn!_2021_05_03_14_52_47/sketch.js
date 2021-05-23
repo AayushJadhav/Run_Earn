@@ -59,12 +59,10 @@ function draw() {
   // text(mouseX + ',' + mouseY, mouseX, mouseY);
 
   if (gameState === START) {
-    textAlign(CENTER);
     fill('orange');
     textSize(50);
     textFont('Comic Sans MS');
     text('RUN, EARN!!', windowWidth / 2 - 80, windowHeight / 2);
-    textAlign(CENTER);
     fill('black');
     text('Press space / tap to start', windowWidth / 2 - 160, windowHeight / 2 + 50);
     if (touches.length < 0 || keyDown('space')) {
