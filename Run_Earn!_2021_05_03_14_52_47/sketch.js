@@ -60,7 +60,7 @@ function draw() {
 
   if (gameState === START) {
     fill('orange');
-    textSize(50);
+    textSize(windowWidth/50);
     textFont('Comic Sans MS');
     text('RUN, EARN!!', windowWidth / 2 - 80, windowHeight / 2);
     fill('black');
